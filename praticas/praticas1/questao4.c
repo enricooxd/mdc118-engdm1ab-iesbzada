@@ -17,11 +17,11 @@ int main() {
 
   preco_final = (1 + ICMS + COFINS + PIS_PASEP) * preco_inicial;
 
-  printf("O preço inicial do produto é: %f\n", preco_inicial);
-  printf("O valor do imposto ICMS é: %f\n", valor_imposto_icms);
-  printf("O valor do imposto COFINS é: %f\n", valor_imposto_cofins);
+  printf("O preço inicial do produto é: %f\n",   preco_inicial);
+  printf("O valor do imposto ICMS é: %f\n",      valor_imposto_icms);
+  printf("O valor do imposto COFINS é: %f\n",    valor_imposto_cofins);
   printf("O valor do imposto PIS_PASEP é: %f\n", valor_imposto_pis_pasep);
-  printf("O preço final do produto é: %f\n", preco_final);
+  printf("O preço final do produto é: %f\n",     preco_final);
 
   return 0;
 }
