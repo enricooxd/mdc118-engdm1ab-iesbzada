@@ -3,11 +3,11 @@
 
 #include <stdio.h>
 int main(){
-  int raio;
+  float raio;
   const float PI = 3.1416;
 
   printf("Entre com o valor do raio para a pizza: ");
-  int deu_certo = scanf("%i", &raio);
+  int deu_certo = scanf("%f", &raio);
 
   int perimetro = 2 * PI * raio;
 
