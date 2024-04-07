@@ -2,11 +2,21 @@
 
 #include <stdio.h>
 #include <math.h>
-int main(){
-  float distancia;
-  float angulo;
-  const double PI = 3.14;
 
+int main() {
+int angulo;
+int altura;
+int distancia;
 
-  return 0,
+  printf("entre com o valor do angulo: ");
+    int deu_certo = scanf("%i", &angulo);
+
+  printf("entre com o valor da distancia em metros: ");
+  deu_certo = scanf("%i", &distancia);
+
+  altura = distancia * sin(angulo);
+
+  printf("o valor da altura em metros e: %i\n", altura);
+
+  return 0;
 }
