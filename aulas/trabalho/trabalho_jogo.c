@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Programa feito por Felipe Oliveira Alves (Matricula: 2412082012) e Henri de Macedo Bezerra (Matricula: 2412082022)
+
 int main() {
     char tabuleiro[3][3];
     int linha, coluna;
